@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "price_updates",
+  "info": {
+    "name": "PriceUpdate"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "price": {
+      "type": "float"
+    },
+    "product": {
+      "model": "product"
+    }
+  }
+}
